@@ -6,5 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/HabitatLand.unity
+    guid: afb869b3acfd1104e9c7f2cbdee911c8
+  - enabled: 1
     path: Assets/Scenes/_StartLevel.unity
     guid: 335c0ea3c6267464f9b83ac23a36c8c3
