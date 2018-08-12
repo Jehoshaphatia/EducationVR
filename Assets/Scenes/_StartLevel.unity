@@ -1631,9 +1631,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c9af3306951be542acc65065af71d4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  landLevel: HabitatLand
-  airLevel: Controls
-  waterLevel: Layout Groups
+  landLevel: HabitatLand.
+  airLevel: Controls.
+  waterLevel: Layout Groups.
 --- !u!4 &1091309093
 Transform:
   m_ObjectHideFlags: 0
