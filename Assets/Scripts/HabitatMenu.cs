@@ -28,13 +28,13 @@ public class HabitatMenu : MonoBehaviour {
     }
 
     //Use this for loading Air habitat
-    public void loadLandHabitat()
+    public void loadAirHabitat()
     {
         SceneManager.LoadScene(airLevel);
     }
 
     //Use this for loading Water habitat
-    public void loadLandHabitat()
+    public void loadWaterHabitat()
     {
         SceneManager.LoadScene(waterLevel);
     }
