@@ -1,17 +1,42 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class HabitatMenu : MonoBehaviour {
+    public string landLevel;
+    public string airLevel;
+    public string waterLevel;
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+    {
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+    {
 		
 	}
+
+
+    //Use this for loading land habitat
+    public void loadLandHabitat()
+    {
+        SceneManager.LoadScene(landLevel);
+    }
+
+    //Use this for loading Air habitat
+    public void loadLandHabitat()
+    {
+        SceneManager.LoadScene(airLevel);
+    }
+
+    //Use this for loading Water habitat
+    public void loadLandHabitat()
+    {
+        SceneManager.LoadScene(waterLevel);
+    }
+
 }
